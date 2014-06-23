@@ -1,0 +1,386 @@
+/*=====================================================================================================================
+														Layout for desktop version
+======================================================================================================================= */
+
+	#tv-media {
+		display: none;
+	}
+
+@media all and (max-width: 1180px) {
+
+/*----------------------------------------
+	Recent Posts Before Content Area
+---------------------------------------- */
+	.before-content-area .latestpost li {margin:0 3.3% 20px 0;}
+	
+	.before-content-area .latestpost li .post-meta time,
+	.popular-posts li .post-meta time {display:block;}
+	
+	.latestpost li  .featured-thumbnail,
+	.featured-thumbnail,
+	.single .featured-thumbnail,
+	.recent-posts.trends li  .featured-thumbnail {margin:4px 22px 10px 0;}
+	
+	.latestpost li .excerpt,
+	.post-content .excerpt 	{margin-bottom:10px;}
+	
+	.top-box {padding:21px 10px 26px 15px;}
+	
+	#sidebar .post_list li .featured-thumbnail {
+		width:60px;
+		height:auto;
+	}
+
+}
+
+@media all and (max-width: 1000px) {
+	
+	.camera_caption > div  {margin-bottom:20px;}
+	.camera_caption > div h2 {
+		font-size:22px;
+		line-height:26px;
+	}
+
+	.topLinks-desktop {
+		display: none !important;
+	}
+	.topLinks-mobile {
+		display: inline-block !important;
+	}
+
+	.sf-menu > li > a {padding:10px 18px 15px 18px;}
+	
+	#gallery .portfolio li {margin: 0 2.9% 50px 0;}
+	#gallery.two_columns .portfolio li {margin: 0 2.8% 50px 0;}
+	#gallery.four_columns .portfolio li {margin: 0 3% 50px 0;}
+	
+}
+	
+
+@media all and (max-width: 950px) {
+	.row-logo .fright {
+		padding: 0;
+		padding-bottom: 15px;
+		float: none;
+	}
+	.fright, #widget-header {
+		max-width: 320px;
+		clear: both;
+		float: none;
+	}
+	.textwidget span:first-child {
+		float: left;
+		padding-bottom: 5px;
+		position: relative;
+		z-index: 999;
+		
+		display: none !important;
+	}
+	#top-search {
+		position: relative;
+		left: 0;
+		top: 0;
+		height: 36px;
+	}
+	#top-search .input-search {
+		height: 36px;
+		font-size: 18px;
+		line-height: 24px;
+		border: none;
+		width: 100%;
+		box-shadow: none;
+		margin-bottom: 15px;
+	}
+	#top-search .input-search:focus {
+		box-shadow: inset 2px 2px 0px #FECC0C, inset -2px -2px 0px #FECC0C;
+	}
+	#top-search #submit {
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 24px;
+		height: 36px;
+		width: 36px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		float: none;
+		margin: 0;
+	}
+	
+	.commentlist {padding:0 0% 40px 0px;}
+	.commentlist ul.children {margin:0;}
+	
+	#commentform input[type="text"],
+	#commentform textarea { width:100%;}
+	
+	
+	.recent-posts.collections li .featured-thumbnail a .stroke {border-width:3px;}
+	
+/*---------------------------------------- 
+				Footer
+---------------------------------------- */
+nav.footer {
+	float:none;
+	text-align:center;
+}
+	nav.footer ul li {
+		float:none;
+		display:inline-block;
+		margin:0 10px 0 0px;
+	}
+
+	#footer-text {
+		width:auto;
+		float:none;
+		text-align:center;
+	}
+	
+/*----------------------------------------
+				Slider
+---------------------------------------- */
+.camera_wrap .camera_pag {
+	bottom:15px;
+	right:10px;
+}
+
+}
+@media all and (max-width: 767px) {
+
+	.logo {
+		text-align: center;
+		padding: 40px 0 !important;
+	}
+	.shopNow {
+		right: auto;
+		left: 50%;
+		margin-left: -75px;
+	}
+	
+	.sf-menu > li > a {padding:10px 12px 15px 12px;}
+	
+	.top-box {margin-top:50px; padding:21px 20px 26px 30px;}
+	.popular-posts li .post-meta time {display:inline-block;}
+	
+	#sidebar .post_list li .featured-thumbnail {
+		width:150px;
+		height:auto;
+	}
+	
+	.slides_container .item .featured-thumbnail {
+		float:left;
+		margin:0 20px 10px 0;
+		width:70%;
+		height:auto;
+	}
+	.widget {
+		display: inline-block;
+	}
+	.widget:last-child {
+		position: absolute;
+		margin-top: -1px;
+		margin-left: 20px;
+		margin-right: 20px
+	}
+}
+
+@media all and (max-width: 660px) {
+
+.smallAd {
+	display: inline-block;
+}
+.largeAd {
+	display: none;
+}
+
+.camera_caption > div {display:none;}
+.sf-menu > li > a {padding:10px 18px 15px 18px;}
+
+.widget:last-child {
+	position: relative;
+	margin: 0;
+}	
+
+.before-content-area .latestpost li {margin:0 3% 20px 0;}
+
+.latestpost li .post-meta time, 
+.post-holder .post-meta time {display:block;}
+
+.single .post-holder .post-meta time {display:inline-block;}
+	
+}
+
+@media all and (max-width: 550px) {
+
+.topLinks {
+	margin: 10px 0 20px !important;
+}
+.topLinks-mobile {
+	display: block !important;
+}
+.topLinks a {
+	margin: 3px;
+}	
+
+/*----------------------------------------
+				 Header
+---------------------------------------- */
+/* Logo */
+.logo {padding:21px 0 0 0px; float:none;}
+.logo img {
+	width:220px;
+	height:auto;
+}
+	.logo h1,
+	.logo h2 {
+		font-size:38px;
+		line-height:43px;
+		letter-spacing:normal;
+	}
+	
+/* Header widget */
+.row-logo .fright {padding:14px 0 0 0; float:none;}
+ul.meta li:first-child {margin:0px;}
+
+/*----------------------------------------
+				Navigations
+---------------------------------------- */
+nav.primary {
+	padding:10px 10px;
+	min-height:1px;
+}
+.sf-menu {display:none;}
+
+
+/* Address */
+.address dt {
+	width:auto;
+	margin:0 0 20px 0;
+	padding:0 0 0 55px;
+	font-size:12px;
+	float:none;
+}
+.address dd {
+	float:none;
+	width:auto;
+	padding:0 0 0 43px;
+	margin:0 0 20px 0;
+}
+	.address dd span {width:100px;}
+	
+}
+
+@media all and (max-width: 450px){
+
+/*----------------------------------------
+	Recent Posts Before Content Area
+---------------------------------------- */
+	.before-content-area .latestpost li, 
+	.recent-posts.services li,
+	.recent-posts.team li	{
+		width:100%;
+		margin:0 0% 30px 0;
+	}
+	.before-content-area  .latestpost-container .link {top:-55px;}
+
+/*----------------------------------------
+			Recent Posts
+---------------------------------------- */
+.latestpost li  .featured-thumbnail, 
+.recent-posts.trends li .featured-thumbnail {
+	float:none;
+	margin:0px 0px 17px 0;
+}
+
+/*----------------------------------------
+			Recent Posts Collections
+---------------------------------------- */
+.recent-posts.collections li .featured-thumbnail a .stroke,
+.related-posts li .featured-thumbnail a .stroke{border-width:4px;}
+
+
+/*----------------------------------------
+				 Post
+---------------------------------------- */
+.featured-thumbnail, 
+.featured-thumbnail.large, 
+.single .featured-thumbnail {
+	float:none;
+	margin:0 0 17px 0;
+}
+	.featured-thumbnail.large {
+		width:100%;
+		height:auto;
+	}
+	
+.single-post.team .featured-thumbnail {
+	width:190px;
+	height:125px;
+	float:left;
+	margin:6px 20px 10px 0;
+}
+
+.slides_container .item .featured-thumbnail {
+	float:none;
+	margin:0 0px 10px 0;
+	width:100%;
+	height:auto;
+}
+
+
+/*----------------------------------------
+				Testimonials
+---------------------------------------- */
+article.testimonial, .single article.testimonial  {
+	padding:30px 30px 30px 35px;
+	background-position:12px 170px;
+}
+article.testimonial .featured-thumbnail, .single article.testimonial .featured-thumbnail  {
+	width:190px;
+	height:125px;
+	left:50%;
+	margin-left:-95px;
+}
+	article.testimonial .featured-thumbnail img, .single article.testimonial .featured-thumbnail img {
+		width:190px;
+		height:125px;
+	}
+
+/*---------------------------------------
+				 404
+---------------------------------------- */
+.error404-num {font-size:170px;}
+
+/*----------------------------------------
+				Sidebar
+---------------------------------------- */
+#sidebar {padding-top:30px;}
+#sidebar .post_list .featured-thumbnail {
+	float:left;
+	margin:0 5px 5px;
+}
+
+/*----------------------------------------
+				Portfolio
+---------------------------------------- */
+#gallery .portfolio li {
+	width:100% !important;
+	margin-right:0 !important;
+}
+		#gallery.one_column .portfolio li a.image-wrap {
+			float:none;
+			width:100%;
+			margin:0 0 17px 0;
+		}
+}
+
+/* Added by Tyler for iPhone Live Video */
+@media all and (max-width: 568px){
+	.video .live {
+		left: 50%;
+		margin-left: -320px;
+		width: 640px;
+	}
+	.es-carousel ul li {
+		width: 180px !important;
+	}
+}

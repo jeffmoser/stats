@@ -1,0 +1,85 @@
+/* 
+    Document   : bm_style
+    Created on : Mar 21, 2014, 2:55:34 PM
+    Author     : jeff
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.bm-form-label-block {
+    width: 25%;
+    float: left;
+}
+
+
+.bm-form-field-block {
+    float: left;
+    }
+
+.bm-form-label {
+    clear: both;
+    margin-top: 30px;
+    margin-left: 20px;
+    line-height: 1.9em;
+}
+
+.bm-form-label bm-performance {
+    /* line-height: */
+}
+
+.bm-form-field {
+    clear: both;
+    margin-top: 30px;
+    margin-left: 20px;
+    line-height: 1em;
+}
+
+#form-performance-block {
+    clear: both;
+}
+
+
+.checkboxInput {
+    display: block;
+    margin-top: 1.2em;
+    margin-left: 20px;
+}
+
+.checkboxInput input {
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    clear: right;
+}
+
+.selectInput {
+    float: left;
+    clear: right;
+    position: relative;
+    top: -5px;
+    margin-right: 20px;
+}
+
+.perfInputLine {
+    margin-bottom: 30px;
+}
+
+
+img.ajax-loader {
+    visibility: hidden;
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 45%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 45% 10px 10px; }

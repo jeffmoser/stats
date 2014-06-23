@@ -1,0 +1,1300 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-02 12:14+0200\n"
+"PO-Revision-Date: 2012-10-02 12:14+0200\n"
+"Last-Translator: mary <dfcc@ukr.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:7
+msgid "Sorry!"
+msgstr ""
+
+#: ../404.php:8
+msgid "Page Not Found"
+msgstr ""
+
+#: ../404.php:10
+msgid "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+msgstr ""
+
+#: ../404.php:11
+msgid "Please try using our search box below to look for information on the internet."
+msgstr ""
+
+#: ../archive.php:5
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:7
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:9
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:11
+msgid "Blog Archives"
+msgstr ""
+
+#: ../archive.php:31
+#: ../category.php:23
+#: ../index.php:24
+msgid "There has been an error."
+msgstr ""
+
+#: ../archive.php:32
+#: ../category.php:24
+#: ../index.php:25
+msgid "We apologize for any inconvenience, please"
+msgstr ""
+
+#: ../archive.php:32
+#: ../category.php:24
+#: ../index.php:25
+msgid "return to the home page"
+msgstr ""
+
+#: ../archive.php:32
+#: ../category.php:24
+#: ../index.php:25
+msgid "or use the search form below."
+msgstr ""
+
+#: ../author.php:11
+msgid "About:"
+msgstr ""
+
+#: ../author.php:21
+msgid "Recent Posts by"
+msgstr ""
+
+#: ../author.php:40
+msgid "No post yet."
+msgstr ""
+
+#: ../author.php:50
+msgid "Recent Comments by"
+msgstr ""
+
+#: ../author.php:58
+#, php-format
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: ../author.php:61
+msgid "No comments by"
+msgstr ""
+
+#: ../author.php:61
+msgid "yet."
+msgstr ""
+
+#: ../category.php:4
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:32
+msgid "No Comments Yet."
+msgstr ""
+
+#: ../comments.php:35
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:45
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../comments.php:52
+msgid "You must be"
+msgstr ""
+
+#: ../comments.php:52
+msgid "logged in"
+msgstr ""
+
+#: ../comments.php:52
+msgid "to post a comment."
+msgstr ""
+
+#: ../comments.php:59
+msgid "Logged in as"
+msgstr ""
+
+#: ../comments.php:59
+msgid "Log out of this account"
+msgstr ""
+
+#: ../comments.php:59
+msgid "Log out &raquo;"
+msgstr ""
+
+#: ../comments.php:63
+msgid "Name:"
+msgstr ""
+
+#: ../comments.php:65
+msgid "E-mail:"
+msgstr ""
+
+#: ../comments.php:65
+msgid "(Will not be published)"
+msgstr ""
+
+#: ../comments.php:67
+msgid "Website:"
+msgstr ""
+
+#: ../comments.php:73
+msgid "Message:"
+msgstr ""
+
+#: ../comments.php:75
+msgid "Submit Comment"
+msgstr ""
+
+#: ../footer.php:24
+msgid "is proudly powered by"
+msgstr ""
+
+#: ../footer.php:24
+msgid "Entries (RSS)"
+msgstr ""
+
+#: ../footer.php:24
+msgid "Comments (RSS)"
+msgstr ""
+
+#: ../header.php:9
+msgid "Category Archive for &quot;"
+msgstr ""
+
+#: ../header.php:9
+#: ../header.php:11
+#: ../header.php:15
+msgid "&quot; | "
+msgstr ""
+
+#: ../header.php:11
+msgid "Tag Archive for &quot;"
+msgstr ""
+
+#: ../header.php:13
+msgid " Archive | "
+msgstr ""
+
+#: ../header.php:15
+msgid "Search for &quot;"
+msgstr ""
+
+#: ../header.php:19
+msgid "Error 404 Not Found | "
+msgstr ""
+
+#: ../header.php:221
+msgid "GO"
+msgstr ""
+
+#: ../options.php:33
+msgid "Image Logo"
+msgstr ""
+
+#: ../options.php:34
+msgid "Text Logo"
+msgstr ""
+
+#: ../options.php:559
+msgid "General"
+msgstr ""
+
+#: ../options.php:733
+msgid "Logo"
+msgstr ""
+
+#: ../options.php:768
+msgid "Slider"
+msgstr ""
+
+#: ../options.php:883
+msgid "Blog"
+msgstr ""
+
+#: ../options.php:946
+msgid "Footer"
+msgstr ""
+
+#: ../page-archives.php:19
+msgid "Pages:"
+msgstr ""
+
+#: ../page-archives.php:23
+msgid "Last 30 Posts"
+msgstr ""
+
+#: ../page-archives.php:32
+msgid "Archives by Month:"
+msgstr ""
+
+#: ../page-archives.php:38
+msgid "Archives by Subject:"
+msgstr ""
+
+#: ../page-faq.php:17
+msgid "Q?"
+msgstr ""
+
+#: ../page-faq.php:19
+msgid "A."
+msgstr ""
+
+#: ../page-Portfolio1Col.php:20
+#: ../page-Portfolio2Cols.php:20
+msgid "Not Found"
+msgstr ""
+
+#: ../page-Portfolio1Col.php:22
+#: ../page-Portfolio2Cols.php:22
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: ../page-Portfolio1Col.php:45
+#: ../page-Portfolio2Cols.php:53
+msgid "Permanent Link to"
+msgstr ""
+
+#: ../page-Portfolio1Col.php:50
+#: ../page-Portfolio2Cols.php:58
+msgid "Read More"
+msgstr ""
+
+#: ../page-testi.php:63
+msgid "&laquo; Older Testimonials"
+msgstr ""
+
+#: ../page-testi.php:66
+msgid "Newer Testimonials &raquo;"
+msgstr ""
+
+#: ../searchform.php:3
+#: ../sidebar.php:4
+msgid "Search"
+msgstr ""
+
+#: ../sidebar.php:9
+msgid "Navigation"
+msgstr ""
+
+#: ../sidebar.php:14
+msgid "Archives"
+msgstr ""
+
+#: ../sidebar.php:21
+msgid "Meta"
+msgstr ""
+
+#: ../single-testi.php:47
+msgid "&laquo; Previous post"
+msgstr ""
+
+#: ../single-testi.php:50
+msgid "Next Post &raquo;"
+msgstr ""
+
+#: ../tag.php:3
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../admin/options-framework.php:170
+#: ../admin/options-framework.php:364
+msgid "Theme Options"
+msgstr ""
+
+#: ../admin/options-framework.php:238
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../admin/options-framework.php:270
+msgid "Default options restored."
+msgstr ""
+
+#: ../admin/options-framework.php:313
+msgid "Options saved."
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:26
+msgid "Theme Options Media"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:129
+msgid "Upload"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:152
+msgid "View File"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:289
+msgid "Gallery"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:289
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../admin/options-sanitize.php:244
+msgid "No Repeat"
+msgstr ""
+
+#: ../admin/options-sanitize.php:245
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../admin/options-sanitize.php:246
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../admin/options-sanitize.php:247
+msgid "Repeat All"
+msgstr ""
+
+#: ../admin/options-sanitize.php:260
+msgid "Top Left"
+msgstr ""
+
+#: ../admin/options-sanitize.php:261
+msgid "Top Center"
+msgstr ""
+
+#: ../admin/options-sanitize.php:262
+msgid "Top Right"
+msgstr ""
+
+#: ../admin/options-sanitize.php:263
+msgid "Middle Left"
+msgstr ""
+
+#: ../admin/options-sanitize.php:264
+msgid "Middle Center"
+msgstr ""
+
+#: ../admin/options-sanitize.php:265
+msgid "Middle Right"
+msgstr ""
+
+#: ../admin/options-sanitize.php:266
+msgid "Bottom Left"
+msgstr ""
+
+#: ../admin/options-sanitize.php:267
+msgid "Bottom Center"
+msgstr ""
+
+#: ../admin/options-sanitize.php:268
+msgid "Bottom Right"
+msgstr ""
+
+#: ../admin/options-sanitize.php:281
+msgid "Scroll Normally"
+msgstr ""
+
+#: ../admin/options-sanitize.php:282
+msgid "Fixed in Place"
+msgstr ""
+
+#: ../admin/options-sanitize.php:356
+msgid "Normal"
+msgstr ""
+
+#: ../admin/options-sanitize.php:357
+msgid "Italic"
+msgstr ""
+
+#: ../admin/options-sanitize.php:358
+msgid "Bold"
+msgstr ""
+
+#: ../admin/options-sanitize.php:359
+msgid "Bold Italic"
+msgstr ""
+
+#: ../admin/options-sanitize.php:377
+msgid "13px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:378
+msgid "14px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:379
+msgid "15px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:380
+msgid "16px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:381
+msgid "17px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:382
+msgid "18px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:383
+msgid "19px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:384
+msgid "20px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:385
+msgid "21px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:386
+msgid "22px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:387
+msgid "23px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:388
+msgid "24px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:389
+msgid "25px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:390
+msgid "26px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:391
+msgid "27px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:392
+msgid "28px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:393
+msgid "29px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:394
+msgid "30px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:395
+msgid "31px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:396
+msgid "32px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:397
+msgid "33px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:398
+msgid "34px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:399
+msgid "35px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:400
+msgid "36px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:401
+msgid "37px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:402
+msgid "38px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:403
+msgid "39px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:404
+msgid "40px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:405
+msgid "41px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:406
+msgid "42px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:407
+msgid "43px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:408
+msgid "44px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:409
+msgid "45px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:410
+msgid "46px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:411
+msgid "47px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:412
+msgid "48px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:413
+msgid "49px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:414
+msgid "50px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:415
+msgid "51px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:416
+msgid "52px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:417
+msgid "53px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:418
+msgid "54px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:419
+msgid "55px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:420
+msgid "56px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:421
+msgid "57px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:422
+msgid "58px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:423
+msgid "59px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:424
+msgid "60px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:425
+msgid "61px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:426
+msgid "62px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:427
+msgid "63px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:428
+msgid "64px"
+msgstr ""
+
+#: ../admin/options-sanitize.php:429
+msgid "65px"
+msgstr ""
+
+#: ../includes/sidebar-init.php:8
+msgid "Located at the top of pages."
+msgstr ""
+
+#: ../includes/sidebar-init.php:19
+msgid "Located at the top of the content."
+msgstr ""
+
+#: ../includes/sidebar-init.php:30
+msgid "Located at the left of the content."
+msgstr ""
+
+#: ../includes/sidebar-init.php:41
+msgid "Located at the right of the content."
+msgstr ""
+
+#: ../includes/sidebar-init.php:52
+msgid "Located at the right side of pages."
+msgstr ""
+
+#: ../includes/theme-function.php:125
+msgid "Thumbnail"
+msgstr ""
+
+#: ../includes/theme-function.php:146
+msgid "None"
+msgstr ""
+
+#: ../includes/theme-function.php:170
+msgid "Show All "
+msgstr ""
+
+#: ../includes/theme-function.php:284
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../includes/theme-function.php:291
+#, php-format
+msgid "<span class=\"author-comment\">%1$s</span>"
+msgstr ""
+
+#: ../includes/theme-function.php:295
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../includes/theme-init.php:41
+msgid "Slides"
+msgstr ""
+
+#: ../includes/theme-init.php:42
+msgid "Slide"
+msgstr ""
+
+#: ../includes/theme-init.php:71
+msgid "Portfolio"
+msgstr ""
+
+#: ../includes/theme-init.php:72
+msgid "Porfolio Item"
+msgstr ""
+
+#: ../includes/theme-init.php:104
+msgid "Testimonial"
+msgstr ""
+
+#: ../includes/theme-init.php:129
+msgid "Services"
+msgstr ""
+
+#: ../includes/theme-init.php:155
+msgid "FAQs"
+msgstr ""
+
+#: ../includes/theme-init.php:156
+msgid "FAQ"
+msgstr ""
+
+#: ../includes/theme-init.php:178
+msgid "Our Team"
+msgstr ""
+
+#: ../includes/theme-init.php:179
+msgid "Person"
+msgstr ""
+
+#: ../includes/theme-postmeta.php:12
+msgid "Quote Settings"
+msgstr ""
+
+#: ../includes/theme-postmeta.php:17
+msgid "The Quote"
+msgstr ""
+
+#: ../includes/theme-postmeta.php:18
+msgid "Put your quote in this field."
+msgstr ""
+
+#: ../includes/theme-postmeta.php:29
+msgid "Link Settings"
+msgstr ""
+
+#: ../includes/theme-postmeta.php:34
+msgid "The URL"
+msgstr ""
+
+#: ../includes/theme-postmeta.php:35
+msgid "Insert the URL you wish to link to."
+msgstr ""
+
+#: ../includes/theme-postmeta.php:45
+msgid "Image Settings"
+msgstr ""
+
+#: ../includes/theme-postmeta.php:50
+msgid "Enable Lightbox"
+msgstr ""
+
+#: ../includes/theme-postmeta.php:51
+msgid "Check this to enable the lightbox."
+msgstr ""
+
+#: ../includes/theme-postmeta.php:66
+msgid "Audio Settings"
+msgstr ""
+
+#: ../includes/theme-postmeta.php:71
+msgid "MP3 File URL"
+msgstr ""
+
+#: ../includes/theme-postmeta.php:72
+msgid "The URL to the .mp3 audio file"
+msgstr ""
+
+#: ../includes/theme-postmeta.php:83
+msgid "Video Settings"
+msgstr ""
+
+#: ../includes/theme-postmeta.php:88
+msgid "Embeded Code"
+msgstr ""
+
+#: ../includes/theme-postmeta.php:89
+msgid "You can include embeded code here."
+msgstr ""
+
+#: ../includes/theme-slidermeta.php:18
+msgid "Slider Options"
+msgstr ""
+
+#: ../includes/theme-slidermeta.php:24
+msgid "Caption"
+msgstr ""
+
+#: ../includes/theme-slidermeta.php:25
+msgid "Input your caption for slide (HTML tags are allowed). "
+msgstr ""
+
+#: ../includes/theme-slidermeta.php:31
+#: ../includes/theme-testimeta.php:31
+msgid "URL"
+msgstr ""
+
+#: ../includes/theme-slidermeta.php:32
+msgid "Input the slide URL (can be external link)"
+msgstr ""
+
+#: ../includes/theme-slidermeta.php:62
+msgid "Please fill additional fields for slide. "
+msgstr ""
+
+#: ../includes/theme-teammeta.php:18
+msgid "Personal Options"
+msgstr ""
+
+#: ../includes/theme-teammeta.php:24
+msgid "Position"
+msgstr ""
+
+#: ../includes/theme-teammeta.php:25
+msgid "Input position of the person."
+msgstr ""
+
+#: ../includes/theme-teammeta.php:31
+#: ../includes/theme-testimeta.php:38
+msgid "Info"
+msgstr ""
+
+#: ../includes/theme-teammeta.php:32
+msgid "Input additional info."
+msgstr ""
+
+#: ../includes/theme-teammeta.php:62
+msgid "Please fill additional fields for person. "
+msgstr ""
+
+#: ../includes/theme-testimeta.php:18
+msgid "Testimonial Options"
+msgstr ""
+
+#: ../includes/theme-testimeta.php:24
+msgid "Name"
+msgstr ""
+
+#: ../includes/theme-testimeta.php:25
+msgid "Input author's name. "
+msgstr ""
+
+#: ../includes/theme-testimeta.php:32
+msgid "Input author's URL."
+msgstr ""
+
+#: ../includes/theme-testimeta.php:39
+msgid "Input author's additional info."
+msgstr ""
+
+#: ../includes/theme-testimeta.php:69
+msgid "Please fill additional fields for testimonial. "
+msgstr ""
+
+#: ../includes/post-formats/audio.php:9
+#: ../includes/post-formats/gallery.php:9
+#: ../includes/post-formats/image.php:7
+msgid "Permalink to:"
+msgstr ""
+
+#: ../includes/post-formats/post-meta.php:5
+msgid "By"
+msgstr ""
+
+#: ../includes/post-formats/post-nav.php:7
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: ../includes/post-formats/post-nav.php:10
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: ../includes/post-formats/related-posts.php:29
+msgid "Related Posts"
+msgstr ""
+
+#: ../includes/post-formats/standard.php:56
+msgid "Read more"
+msgstr ""
+
+#: ../includes/theme_shortcodes/shortcodes.php:530
+msgid "The URL you entered is not a .mp3 file."
+msgstr ""
+
+#: ../includes/theme_shortcodes/shortcodes.php:597
+msgid "You entered a video URL that isn't compatible with this shortcode."
+msgstr ""
+
+#: ../includes/theme_shortcodes/tinymce/dialog.php:23
+msgid "Shortcode Options"
+msgstr ""
+
+#: ../includes/widgets/my-banners-widget.php:77
+#: ../includes/widgets/my-carousel-widget.php:85
+#: ../includes/widgets/my-flickr-widget.php:57
+#: ../includes/widgets/my-popular-posts-widget.php:107
+#: ../includes/widgets/my-post-cycle-widget.php:121
+#: ../includes/widgets/my-recent-posts.php:130
+#: ../includes/widgets/my-requestquote-widget.php:58
+#: ../includes/widgets/my-social-widget.php:110
+#: ../includes/widgets/my-twitter-widget.php:56
+msgid "Title:"
+msgstr ""
+
+#: ../includes/widgets/my-banners-widget.php:78
+msgid "1st banner path:"
+msgstr ""
+
+#: ../includes/widgets/my-banners-widget.php:79
+msgid "1st banner Link:"
+msgstr ""
+
+#: ../includes/widgets/my-banners-widget.php:81
+msgid "2nd banner path:"
+msgstr ""
+
+#: ../includes/widgets/my-banners-widget.php:82
+msgid "2nd banner Link:"
+msgstr ""
+
+#: ../includes/widgets/my-banners-widget.php:84
+msgid "3rd banner path:"
+msgstr ""
+
+#: ../includes/widgets/my-banners-widget.php:85
+msgid "3rd banner Link:"
+msgstr ""
+
+#: ../includes/widgets/my-banners-widget.php:87
+msgid "4th banner path:"
+msgstr ""
+
+#: ../includes/widgets/my-banners-widget.php:88
+msgid "4th banner Link:"
+msgstr ""
+
+#: ../includes/widgets/my-carousel-widget.php:87
+#: ../includes/widgets/my-post-cycle-widget.php:123
+msgid "Limit Text:"
+msgstr ""
+
+#: ../includes/widgets/my-carousel-widget.php:88
+#: ../includes/widgets/my-popular-posts-widget.php:125
+#: ../includes/widgets/my-post-cycle-widget.php:124
+#: ../includes/widgets/my-recent-posts.php:148
+msgid "Posts per page:"
+msgstr ""
+
+#: ../includes/widgets/my-carousel-widget.php:90
+msgid "Post type:"
+msgstr ""
+
+#: ../includes/widgets/my-comment-widget.php:6
+#: ../includes/widgets/my-comment-widget.php:7
+msgid "My - Recent Comments"
+msgstr ""
+
+#: ../includes/widgets/my-comment-widget.php:14
+msgid "My Recent Comments"
+msgstr ""
+
+#: ../includes/widgets/my-comment-widget.php:43
+msgid "Go to this comment"
+msgstr ""
+
+#: ../includes/widgets/my-flickr-widget.php:59
+msgid "Flickr ID:"
+msgstr ""
+
+#: ../includes/widgets/my-flickr-widget.php:60
+msgid "Images count:"
+msgstr ""
+
+#: ../includes/widgets/my-flickr-widget.php:61
+#: ../includes/widgets/my-popular-posts-widget.php:129
+#: ../includes/widgets/my-recent-posts.php:152
+msgid "Link Text:"
+msgstr ""
+
+#: ../includes/widgets/my-popular-posts-widget.php:109
+#: ../includes/widgets/my-recent-posts.php:132
+msgid "Category Slug:"
+msgstr ""
+
+#: ../includes/widgets/my-popular-posts-widget.php:111
+#: ../includes/widgets/my-recent-posts.php:134
+msgid "Post format:"
+msgstr ""
+
+#: ../includes/widgets/my-popular-posts-widget.php:127
+#: ../includes/widgets/my-posts-type-widget.php:287
+#: ../includes/widgets/my-recent-posts.php:150
+msgid "Excerpt length (words):"
+msgstr ""
+
+#: ../includes/widgets/my-popular-posts-widget.php:131
+#: ../includes/widgets/my-recent-posts.php:154
+msgid "Link Url:"
+msgstr ""
+
+#: ../includes/widgets/my-post-cycle-widget.php:126
+msgid "Post Type:"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:7
+msgid "Show custom posts"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:9
+msgid "My - Advanced Cycle"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:174
+msgid "Title"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:181
+msgid "Posts type"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:201
+msgid "Number of posts to show"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:208
+msgid "Sort by"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:224
+msgid "Reverse sort order (ascending)"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:230
+msgid "Show number of comments"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:237
+msgid "Show meta"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:243
+msgid "Container class"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:244
+msgid "(default: \"featured_custom_posts\")"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:249
+msgid "Post title"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:253
+msgid "Show post title"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:259
+msgid "Date as title <span style=\"font-size:11px; color:#999;\">(\"[mm-dd-yyyy]\")</span>"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:264
+msgid "Before title"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:270
+msgid "After title"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:278
+msgid "Excerpt"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:282
+msgid "Show post excerpt"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:294
+msgid "Excerpt as link"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:301
+msgid "More link"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:305
+msgid "Show \"More link\""
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:311
+#: ../includes/widgets/my-posts-type-widget.php:358
+msgid "Link text"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:312
+msgid "(default: \"Read more\")"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:317
+msgid "Link class"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:318
+msgid "(default: \"link\")"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:323
+msgid "Thumbnail dimensions"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:328
+msgid "Show post thumbnail"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:344
+msgid "Thumbnail as link"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:349
+msgid "Link to all posts"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:353
+msgid "Show global link to all posts"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:359
+msgid "(default: \"View all\")"
+msgstr ""
+
+#: ../includes/widgets/my-posts-type-widget.php:364
+msgid "Link URL"
+msgstr ""
+
+#: ../includes/widgets/my-requestquote-widget.php:59
+msgid "Text:"
+msgstr ""
+
+#: ../includes/widgets/my-requestquote-widget.php:60
+msgid "Button Text:"
+msgstr ""
+
+#: ../includes/widgets/my-requestquote-widget.php:61
+msgid "Button URL:"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:6
+msgid "Link to your social networks."
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:7
+msgid "My - Social Networks"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:114
+msgid "Facebook"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:116
+msgid "Facebook URL:"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:119
+msgid "Facebook label:"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:124
+msgid "Twitter"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:125
+msgid "Twitter URL:"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:127
+msgid "Twitter label:"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:132
+msgid "Flickr"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:133
+msgid "Flickr URL:"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:135
+msgid "Flickr label:"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:140
+msgid "RSS feed"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:141
+msgid "RSS feed:"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:143
+msgid "RSS label:"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:148
+msgid "Linkedin"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:149
+msgid "Linkedin URL:"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:151
+msgid "Linkedin label:"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:156
+msgid "Delicious"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:157
+msgid "Delicious URL:"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:159
+msgid "Delicious label:"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:164
+msgid "Youtube"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:165
+msgid "Youtube URL:"
+msgstr ""
+
+#: ../includes/widgets/my-social-widget.php:167
+msgid "Youtube label:"
+msgstr ""
+
+#: ../includes/widgets/my-twitter-widget.php:58
+msgid "Twitter Name:"
+msgstr ""
+
+#: ../includes/widgets/my-twitter-widget.php:59
+msgid "Twitts number:"
+msgstr ""
+
+#: ../includes/widgets/my-vcard-widget.php:5
+msgid "Use this widget to add a vCard"
+msgstr ""
+
+#: ../includes/widgets/my-vcard-widget.php:6
+msgid "My - vCard"
+msgstr ""
+
+#: ../includes/widgets/my-vcard-widget.php:33
+msgid "vCard"
+msgstr ""
+
+#: ../includes/widgets/my-vcard-widget.php:99
+msgid "Title (optional):"
+msgstr ""
+
+#: ../includes/widgets/my-vcard-widget.php:103
+msgid "Street Address:"
+msgstr ""
+
+#: ../includes/widgets/my-vcard-widget.php:107
+msgid "City/Locality:"
+msgstr ""
+
+#: ../includes/widgets/my-vcard-widget.php:111
+msgid "State/Region:"
+msgstr ""
+
+#: ../includes/widgets/my-vcard-widget.php:115
+msgid "Zipcode/Postal Code:"
+msgstr ""
+
+#: ../includes/widgets/my-vcard-widget.php:119
+msgid "Telephone:"
+msgstr ""
+
+#: ../includes/widgets/my-vcard-widget.php:123
+msgid "Email:"
+msgstr ""
+
