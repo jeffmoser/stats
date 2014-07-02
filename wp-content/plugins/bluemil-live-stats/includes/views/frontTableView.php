@@ -95,28 +95,33 @@ class frontTableView {
         $this->layoutStart();
 
         $this->output .= '
-                        <h4>Select a performance</h4>
                                 <div id="bm-admin-accordion">';
 
         $accLoop = 1;
         while ($accLoop <= $this->perfCount) {
             $perfIndex = $accLoop - 1;
 
-            $this->output .= '
-                            <h3>Performance #' . $accLoop . ' - ' . date("m-d-Y g:i a", strtotime($this->perfData[$perfIndex]->date)) . '</h3>
-                            <div>';
-
             // get the event types associated with the chosen performance
             $this->perfEventsData = $this->model->getPerformanceEvents($this->eventData->event_id, $this->perfData[$perfIndex]->perf_id);
 
-            foreach ($this->perfEventsData as $ped) {
+            // don't show a performance if no events exist
+            if(!empty($this->perfEventsData)) {
                 $this->output .= '
-                                <input class="button" type="submit" name="button_' . $accLoop . '" onClick="selectFrontPerf(' . $this->perfData[$perfIndex]->perf_id . ', ' . $ped->perf_event_id . ')" value="' . $ped->type_name . '" />';
-            }
+                            <div class="performance">
+                                <h3>Performance #' . $accLoop . ' - ' . date("m-d-Y g:i a", strtotime($this->perfData[$perfIndex]->date)) . '</h3>';
 
-            $this->output .= '
+                
+                foreach ($this->perfEventsData as $ped) {
+                    $this->output .= '
+                                <a name="button_' . $accLoop . '" onClick="selectFrontPerf(' . $this->perfData[$perfIndex]->perf_id . ', ' . $ped->perf_event_id . ')">' . $ped->type_name . '</a>
+                                &nbsp; &nbsp;';
+                }
+
+                $this->output .= '
                             </div>';
 
+            }
+            
             //<div style="margin:2em; padding:5px !important"><input class="button" type="submit" name="button_'.$accLoop.'" onClick="selPerf('.$this->perfData[$perfIndex]->perf_id.')" value="Performance #'.$accLoop.' - '.$this->perfData[$perfIndex]->date.'" /></div>
 
             $accLoop++;
@@ -142,7 +147,7 @@ class frontTableView {
             <div class="columnLayout" style="min-height: 0;">
                 <div class="rowLayout">
                     <div class="descLayout">
-                        <h2>' . stripslashes($this->eventData->name) . '</h2>
+                        <h3>' . stripslashes($this->eventData->name) . '</h3>
                             ' . $extra . '
                         <img class="ajax-loader" src="'.BMLIVESTATS_URL.'/images/ajax-loader.gif" />
                     </div>';
