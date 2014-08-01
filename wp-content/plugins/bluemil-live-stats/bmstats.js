@@ -6,7 +6,7 @@ var showPerformanceForm = function(eventId) {
     
     if(perfCount < origPerfCount) {
         // ask user to confirm
-        var okToDelete = confirm('You are decreasing the number of performances. Doing this may delete data. Continue?');
+        var okToDelete = confirm('You are changing the number of performances. Doing this may delete data. Would you like to continue?');
         
         if(!okToDelete) {
             jQuery('#performance_count').val('2');

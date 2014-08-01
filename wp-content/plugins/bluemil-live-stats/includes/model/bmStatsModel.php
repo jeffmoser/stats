@@ -80,6 +80,7 @@ class bmStatsModel {
                     $groupedResults[$arrayCount]->event_id = $row->event_id;
                     $groupedResults[$arrayCount]->name = $row->name;
                     $groupedResults[$arrayCount]->location = $row->location;
+                    $groupedResults[$arrayCount]->state = $row->state;
                     $groupedResults[$arrayCount]->created = $row->created;
                     $groupedResults[$arrayCount]->created_by = $row->created_by;
                     $groupedResults[$arrayCount]->is_published = $row->is_published;
@@ -106,6 +107,7 @@ class bmStatsModel {
         $groupedResults[0]->event_id = $results[0]->event_id;
         $groupedResults[0]->name = $results[0]->name;
         $groupedResults[0]->location = $results[0]->location;
+        $groupedResults[0]->state = $results[0]->state;
         $groupedResults[0]->created = $results[0]->created;
         $groupedResults[0]->created_by = $results[0]->created_by;
         $groupedResults[0]->is_published = $results[0]->is_published;
@@ -142,11 +144,12 @@ class bmStatsModel {
         $dataArr = array(
             'name' => sanitize_text_field(str_replace('+', ' ', $params['event_name'])),
             'location' => sanitize_text_field(str_replace('+', ' ', $params['event_location'])),
+            'state' => sanitize_text_field(str_replace('+', ' ', $params['event_state'])),
             'created' => date('Y-m-d H:i:s'),
             'created_by' => absint($params['event_creator']),
             'is_published' => intval($params['is_published'])
         );
-        $dataTypeArr = array('%s', '%s', '%s', '%d', '%d');
+        $dataTypeArr = array('%s', '%s', '%s', '%s', '%d', '%d');
         $results = $this->dbx->insert($this->dbx->bmlivestats_events, $dataArr, $dataTypeArr);
 
         if (!$results) {
@@ -184,6 +187,7 @@ class bmStatsModel {
         $dataArr = array(
             'name' => sanitize_text_field(str_replace('+', ' ', $params['event_name'])),
             'location' => sanitize_text_field(str_replace('+', ' ', $params['event_location'])),
+            'state' => sanitize_text_field(str_replace('+', ' ', $params['event_state'])),
             'created' => date('Y-m-d H:i:s'),
             'created_by' => absint($params['event_creator']),
             'is_published' => intval($params['is_published'])

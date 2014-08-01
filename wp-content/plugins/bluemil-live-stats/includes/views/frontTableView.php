@@ -69,10 +69,10 @@ class frontTableView {
         if(!$this->isAjaxCall) {
             $this->layoutEnd();
                 
-            // refresh the data every 60(?) seconds
+            // refresh the data every 30 seconds
             $this->output .= '
                                 <script type="text/javascript">
-                                    setInterval("refreshScores();",60000);
+                                    setInterval("refreshScores();",30000);
                                 </script>';
         
         }

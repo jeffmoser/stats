@@ -60,7 +60,8 @@ class singleEventHelper {
         
             <div class="bm-form-label"><label for="event_name">Event Name <span class="description">(required)</span></label></div>
             <div class="bm-form-label"><label for="event_location">Event Location</label></div>
-            <div class="bm-form-label"><label for="event_location">Number of Performances</label></div>
+            <div class="bm-form-label"><label for="event_state">State</label></div>
+            <div class="bm-form-label"><label for="performance_count">Number of Performances</label></div>
             <div class="bm-form-label"><label for="is_published">Publish?</label></div>
         </div>
 
@@ -68,6 +69,21 @@ class singleEventHelper {
         <div class="bm-form-field-block">
             <div class="bm-form-field"><input name="event_name" type="text" id="event_name" value="'.stripslashes($eventData->name).'" size="50" /></div>
             <div class="bm-form-field"><input name="event_location" type="text" id="event_location" value="'.stripslashes($eventData->location).'" size="50" /></div>
+            <div class="bm-form-field">
+                <select name="event_state" id="event_state">';
+        $states = $this->getStatesArray();
+        foreach($states as $abbv => $name) {
+            $sel = '';
+            if($eventData->state == $abbv) {
+                $sel = ' selected="SELECTED"';
+            }
+            $formData .= '
+                    <option value="'.$abbv.'"'.$sel.'>'.$name.'</option>';
+        }
+        
+        $formData .= '
+                </select>
+            </div>
             <div class="bm-form-field">
                 <select name="performance_count" id="performance_count" onChange="showPerformanceForm('.$eventData->event_id.')">'; 
         
@@ -133,7 +149,8 @@ class singleEventHelper {
         
             <div class="bm-form-label"><label for="event_name">Event Name <span class="description">(required)</span></label></div>
             <div class="bm-form-label"><label for="event_location">Event Location</label></div>
-            <div class="bm-form-label"><label for="event_location">Number of Performances</label></div>
+            <div class="bm-form-label"><label for="event_state">State</label></div>
+            <div class="bm-form-label"><label for="performance_count">Number of Performances</label></div>
             <div class="bm-form-label"><label for="is_published">Publish?</label></div>
         </div>
 
@@ -141,6 +158,21 @@ class singleEventHelper {
         <div class="bm-form-field-block">
             <div class="bm-form-field"><input name="event_name" type="text" id="event_name" value="" size="50" /></div>
             <div class="bm-form-field"><input name="event_location" type="text" id="event_location" value="" size="50" /></div>
+            <div class="bm-form-field">
+                <select name="event_state" id="event_state">';
+        $states = $this->getStatesArray();
+        foreach($states as $abbv => $name) {
+            $sel = '';
+            if($eventData->state == $abbv) {
+                $sel = ' selected="SELECTED"';
+            }
+            $formData .= '
+                    <option value="'.$abbv.'"'.$sel.'>'.$name.'</option>';
+        }
+        
+        $formData .= '
+                </select>
+            </div>
             <div class="bm-form-field">
                 <select name="performance_count" id="performance_count" onChange="showPerformanceForm()">
                     <option value="">-- Select --</option>';
@@ -244,6 +276,63 @@ class singleEventHelper {
        return $output;
    }
 
+   
+   private function getStatesArray() {
+       $stateArr = array(
+            'AL' => 'Alabama',
+            'AK' => 'Alaska',
+            'AZ' => 'Arizona',
+            'AR' => 'Arkansas',
+            'CA' => 'California',
+            'CO' => 'Colorado',
+            'CT' => 'Connecticut',
+            'DE' => 'Delaware',
+            'DC' => 'District Of Columbia',
+            'FL' => 'Florida',
+            'GA' => 'Georgia',
+            'HI' => 'Hawaii',
+            'ID' => 'Idaho',
+            'IL' => 'Illinois',
+            'IN' => 'Indiana',
+            'IA' => 'Iowa',
+            'KS' => 'Kansas',
+            'KY' => 'Kentucky',
+            'LA' => 'Louisiana',
+            'ME' => 'Maine',
+            'MD' => 'Maryland',
+            'MA' => 'Massachusetts',
+            'MI' => 'Michigan',
+            'MN' => 'Minnesota',
+            'MS' => 'Mississippi',
+            'MO' => 'Missouri',
+            'MT' => 'Montana',
+            'NE' => 'Nebraska',
+            'NV' => 'Nevada',
+            'NH' => 'New Hampshire',
+            'NJ' => 'New Jersey',
+            'NM' => 'New Mexico',
+            'NY' => 'New York',
+            'NC' => 'North Carolina',
+            'ND' => 'North Dakota',
+            'OH' => 'Ohio',
+            'OK' => 'Oklahoma',
+            'OR' => 'Oregon',
+            'PA' => 'Pennsylvania',
+            'RI' => 'Rhode Island',
+            'SC' => 'South Carolina',
+            'SD' => 'South Dakota',
+            'TN' => 'Tennessee',
+            'TX' => 'Texas',
+            'UT' => 'Utah',
+            'VT' => 'Vermont',
+            'VA' => 'Virginia',
+            'WA' => 'Washington',
+            'WV' => 'West Virginia',
+            'WI' => 'Wisconsin',
+            'WY' => 'Wyoming');
+       
+       return $stateArr;
+   }
     
 }
 

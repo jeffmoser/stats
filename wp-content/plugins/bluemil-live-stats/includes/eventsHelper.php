@@ -102,6 +102,7 @@ class eventsHelper extends WP_List_Table {
             'name'          => 'Event',
             'date'          => 'Date',
             'location'      => 'Location',
+            'state'         => 'State',
             'is_published'  => 'Published'
         );
         return $columns;
@@ -117,7 +118,8 @@ class eventsHelper extends WP_List_Table {
         $sortable_columns = array(
             'name' => array('name', false), //true means it's already sorted
             'date' => array('date', true),
-            'location' => array('location', false)
+            'location' => array('location', false),
+            'state' => array('state', false)
         );
         return $sortable_columns;
     }
@@ -137,7 +139,7 @@ class eventsHelper extends WP_List_Table {
         /**
          * First, lets decide how many records per page to show
          */
-        $per_page = 5;
+        $per_page = 10;
         
         
         /**

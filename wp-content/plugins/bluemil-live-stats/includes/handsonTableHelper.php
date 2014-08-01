@@ -225,7 +225,7 @@ class handsonTableHelper {
                                       colWidths: [120, 200, 120, 80],
                                       //colHeaders: [' . $colHeaderStr . '],
                                       columns: [' . $colStr . '],
-                                      minSpareRows: 10,
+                                      minSpareRows: 0,
                                       contextMenu: true,
                                       height: function () {
                                         if (maxed && availableHeight === void 0) {
