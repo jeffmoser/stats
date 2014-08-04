@@ -147,7 +147,7 @@ class frontTableView {
             <div class="columnLayout" style="min-height: 0;">
                 <div class="rowLayout">
                     <div class="descLayout">
-                        <h3>' . stripslashes($this->eventData->name) . '</h3>
+                        <h2>' . stripslashes($this->eventData->name) . '</h2>
                             ' . $extra . '
                         <img class="ajax-loader" src="'.BMLIVESTATS_URL.'/images/ajax-loader.gif" />
                     </div>';

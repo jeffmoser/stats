@@ -3070,7 +3070,44 @@ h2 {
 	color: #fbd010 !important;
 }
 
-/* Live Stat Form Styles */
+/* Initial State */
+#bmStatsDisplay table a {
+  color: #fbd010;
+  display: block;
+  text-decoration: none;
+}
+#bmStatsDisplay table tr:first-child {
+	font-weight: bold;
+}
+
+/* Performances State */
+.performance {
+  overflow: auto;
+  margin-bottom: 2em;
+}
+.performance h3 {
+  background: #fbd010;
+  color: #001f3f;
+  padding: .5em 1em;
+  margin: 0;
+}
+.performance a {
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  display: block;
+  float: left;
+  background: #011933;
+  border: 1px solid #011021;
+  border-top: none;
+}
+.performance a:hover {
+  color: #fbd010;
+  border-color: #fbd010;
+  cursor: pointer;
+}
+
+/* FinalForm State */
 h1.sp-title {
 	color: #fbd010 !important;
 }
@@ -3086,31 +3123,27 @@ h1.sp-title {
 	margin-left: 1em;
 	color: #a9a8a8;
 }
-#statsFrontContainer table {
+#statsFrontContainer table, #bmStatsDisplay table {
 	border-color: #011021;
 	border-style: solid;
 	border-top: none;
 } 
-#statsFrontContainer table tr td {
+#statsFrontContainer table tr td, #bmStatsDisplay table tr td {
 	padding: 10px;
 	border: 1px solid #011021;
 }
-#statsFrontContainer table tr:nth-child(odd) {
+#statsFrontContainer table tr:nth-child(odd), #bmStatsDisplay table tr:nth-child(odd) {
 	background: #011933;
 }
-/*JM #statsFrontContainer table tr td:nth-child(5) {*/
-#statsFrontContainer table tr td.time, td.score {
+td.time, td.score {
 	color: #fbd010;
 }
-#statsFrontContainer table tr:first-child {
+#statsFrontContainer table tr:first-child, #bmStatsDisplay table tr:first-child {
 	background: #fbd010;
 }
-#statsFrontContainer table tr:first-child td {
+#statsFrontContainer table tr:first-child td, #bmStatsDisplay table tr:first-child td {
 	color: #001f3f;
 }
-/*#statsFrontContainer table tr:first-child td {
-	border-right: 1px solid #003d7e;
-}*/
 
 @media all and (max-width: 500px) {
 	#statsFrontContainer table tr td {

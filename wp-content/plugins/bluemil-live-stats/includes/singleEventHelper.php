@@ -54,7 +54,7 @@ class singleEventHelper {
                 <input type="hidden" name="action" value="saveEvent" />
                 <input type="hidden" name="event_creator" value="'.$eventData->created_by.'" />
                 <input type="hidden" name="event_id" value="'.$eventData->event_id.'" />
-        <h3>'.$this->actionText.'</h3>
+        <h2>'.$this->actionText.'</h2>
         
         <div class="bm-form-label-block">
         
@@ -143,7 +143,7 @@ class singleEventHelper {
         <form name="event_form" method="post" action="'.$_REQUEST['page'].'">
                 <input type="hidden" name="action" value="saveEvent" />
                 <input type="hidden" name="event_creator" value="'.$thisUser.'" />
-        <h3>'.$this->actionText.'</h3>
+        <h2>'.$this->actionText.'</h2>
         
         <div class="bm-form-label-block">
         
